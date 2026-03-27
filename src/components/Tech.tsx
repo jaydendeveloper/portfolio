@@ -7,61 +7,73 @@ const Tech = () => {
 		{
 			name: "Next.js",
 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-			year: "2022 - Present",
+			year: "since 2022",
 			link: "https://nextjs.org/",
 		},
-		{
+		/* 		{
 			name: "React",
 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
 			year: "2022 - Present",
 			link: "https://react.dev",
+		}, */
+		{
+			name: "Expo",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/expo/expo-original.svg",
+			year: "since 2026",
+			link: "https://expo.dev",
 		},
 		{
 			name: "TypeScript",
 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-			year: "2023 - Present",
+			year: "since 2023",
 			link: "https://www.typescriptlang.org/",
 		},
 		{
 			name: "JavaScript",
 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-			year: "2020 - Present",
+			year: "since 2020",
 			link: "https://www.javascript.com/",
 		},
-		{
+		/* 		{
 			name: "Tailwind CSS",
 			icon: "/tailwindcss-icon.svg",
 			year: "2022 - Present",
 			link: "https://tailwindcss.com/",
+		}, */
+		{
+			name: "Java Spring Boot",
+			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+			year: "since 2026",
+			link: "https://spring.io/projects/spring-boot",
 		},
 		{
 			name: "Node.js",
 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-			year: "2022 - Present",
+			year: "since 2022",
 			link: "https://nodejs.org/",
 		},
 		{
 			name: "PostgreSQL",
 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-			year: "2023 - Present",
+			year: "since 2023",
 			link: "https://www.postgresql.org/",
 		},
 		{
 			name: "Git",
 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-			year: "2020 - Present",
+			year: "since 2020",
 			link: "https://git-scm.com/",
 		},
 		{
 			name: "Debian",
 			icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg",
-			year: "2020 - Present",
+			year: "since 2020",
 			link: "https://www.debian.org/",
 		},
 		{
 			name: "Nginx",
 			icon: "/nginx-icon.svg",
-			year: "2023 - Present",
+			year: "since 2023",
 			link: "https://nginx.org",
 		},
 	];
