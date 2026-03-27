@@ -14,36 +14,37 @@ import {
 
 const projects = [
 	{
+		title: "ChefConnect",
+		description:
+			"ChefConnect is your go-to platform for hiring talented private chefs for your events or becoming a chef and earning money hosting culinary experiences.",
+		year: "2026",
+		tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+		link: "https://chefconnect.hu",
+		img: "/chefconnect.png",
+	},
+	{
 		title: "Völgyesitea.hu ",
 		description: "A webshop built for Völgyesitea, a Hungarian tea company.",
 		year: "2025",
-		tags: [
-			"Next.js",
-			"TypeScript",
-			"Tailwind CSS",
-			"HeroUI",
-			"Stripe",
-			"szamlazz.js",
-			"Drizzle ORM",
-			"Payload CMS",
-		],
+		tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Payload CMS"],
 		link: "https://volgyesitea.hu",
 		img: "/volgyesitea.png",
+	},
+	{
+		title: "Kokovai Team Website",
+		description: "A website built for Kokovai Team, a Hungarian gym.",
+		year: "2026",
+		tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+		link: "https://kokovai.hu",
+		img: "/kokovai.png",
 	},
 	{
 		title: "GTA:SA Guesser",
 		description:
 			"A web application that allows users to guess locations from GTA: San Andreas in a GeoGuesser style.",
 		year: "2022-2023",
-		tags: [
-			"Next.js",
-			"JavaScript",
-			"Tailwind CSS",
-			"Firebase",
-			"next-i18next",
-			"react-leaflet",
-		],
-		link: "https://gtasaguesser.com",
+		tags: ["Next.js", "JavaScript", "Tailwind CSS", "Firebase"],
+		link: "https://gtasaguesser.app",
 		img: "/gtasaguesser.png",
 	},
 ];
@@ -87,7 +88,7 @@ const Projects = () => {
 								))}
 							</div>
 						</CardContent>
-						<CardFooter>
+						<CardFooter className="mt-auto">
 							<Link
 								href={project.link}
 								target="_blank"
